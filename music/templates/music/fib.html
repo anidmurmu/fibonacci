@@ -1,0 +1,14 @@
+<div style="width: 100%; height: 50px; color: #444">
+</div>
+
+
+<form method="post">
+	{% csrf_token %}
+
+	<input type="text" name="num" id="num"><br>
+	
+	<input type="submit" value="Submit">
+</form>
+
+<p> Nth term is {{ nth_term }} </p><br>
+<p> Time taken {{ time }} </p>
